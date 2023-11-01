@@ -1,0 +1,20 @@
+{
+  "dates": [
+    {
+      "date": "10.01.2023",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, ipsa. Et, facilis nihil. Quisquam ipsam eum quam totam quos, neque vitae necessitatibus error maiores repellendus doloremque cumque labore voluptatum eaque."
+    },
+    {
+      "date": "10.04.2023",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, ipsa. Et, facilis nihil. Quisquam ipsam eum quam totam quos, neque vitae necessitatibus error maiores repellendus doloremque cumque labore voluptatum eaque."
+    },
+    {
+      "date": "10.06.2023",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, ipsa. Et, facilis nihil. Quisquam ipsam eum quam totam quos, neque vitae necessitatibus error maiores repellendus doloremque cumque labore voluptatum eaque."
+    },
+    {
+      "date": "10.07.2023",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, ipsa. Et, facilis nihil. Quisquam ipsam eum quam totam quos, neque vitae necessitatibus error maiores repellendus doloremque cumque labore voluptatum eaque."
+    }
+  ]
+}

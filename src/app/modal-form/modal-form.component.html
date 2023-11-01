@@ -1,0 +1,23 @@
+<mat-dialog-content>
+  <form [formGroup]="form" class="modal-form" (submit)="save()">
+    <mat-form-field>
+      <input
+        matInput
+        formControlName="date"
+        placeholder="Дата"
+        [readonly]="true"
+      />
+    </mat-form-field>
+
+    <mat-form-field>
+      <textarea matInput formControlName="description"></textarea>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit">Сохранить</button>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onClose()" [disabled]="form.invalid">
+    Закрыть
+  </button>
+</mat-dialog-actions>

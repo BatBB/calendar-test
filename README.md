@@ -2,26 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
 
-## Development server
+## Task
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Средствами Angular реализовать компонент для SPA приложение формирующего отбражение строковых блоков в виде календарного дня, либо последовательности чисел.
 
-## Code scaffolding
+Структура компонента состоит из блоков равным одному календарному дню (либо числу).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Взаимодействие с блоком (днем или числом):
+ • Добавление блока (дня или числа) наведением мышкой на его нижнюю часть появляется «+»
 
-## Build
+Основные параметры:
+ • Последовательность блоков = последовательности календарных дней (чисел)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Пример:
+У нас есть последовательность чисел от 1 до 10. Если последовательность соблюдена, то у нас отображаются 10 пронумерованных блоков (как дни на картинке) друг за другом. Если последовательность не соблюдена, к примеру, пропущены числа 2 и 6, то мы должны используя кнопку "+" между блоками добавить их. То есть добавить пропущенный нумерованный блок 2 между 1 и 3 блоком и нумерованный блок 6 между 5 и 7 блоком.

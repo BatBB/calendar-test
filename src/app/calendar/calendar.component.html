@@ -1,0 +1,8 @@
+<ng-container *ngIf="calendarData$ | async as calendarData">
+  <app-calendar-date
+    *ngFor="let dateData of calendarData.dates; let i = index"
+    [dateData]="dateData"
+    [index]="i"
+  >
+  </app-calendar-date>
+</ng-container>

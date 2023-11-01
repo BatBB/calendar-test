@@ -1,0 +1,25 @@
+.day-card {
+  border-radius: 20px;
+  border: 1px solid #e0e9ee;
+  margin: 20px 0;
+
+  &__header {
+    color: #2a7cb4;
+    padding: 12px;
+    border-radius: 20px 20px 0 0;
+    background-color: #f2f9ff;
+  }
+
+  &__content {
+    margin: 10px;
+  }
+
+  &__footer {
+    height: 20px;
+  }
+}
+
+.button-add {
+  display: flex;
+  justify-content: center;
+}

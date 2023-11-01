@@ -1,0 +1,23 @@
+<ng-container *ngIf="dateData.description !== null; else addButtonTemplate">
+  <mat-card class="day-card" s>
+    <mat-card-header class="day-card__header">
+      <mat-card-title>{{ dateData.date | date : "d MMMM" }} </mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="day-card__content">
+      {{ dateData.description }}
+    </mat-card-content>
+    <mat-card-footer
+      class="day-card__footer"
+      (mouseenter)="setHoverIndex()"
+    ></mat-card-footer>
+  </mat-card>
+</ng-container>
+<ng-template #addButtonTemplate>
+  <div
+    class="button-add"
+    *ngIf="hoverIndex() === index - 1"
+    (mouseleave)="resetHoverIndex()"
+  >
+    <button mat-button (click)="openForm()">+ Добавить запись</button>
+  </div>
+</ng-template>
